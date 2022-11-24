@@ -407,6 +407,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_isDeviceActive_m05C0035E5
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
+// System.Boolean UnityEngine.XR.XRSettings::get_showDeviceView()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_showDeviceView_m02403BF22E14ECCBC281E9E8DD4462F12F50B167 (const RuntimeMethod* method) 
+{
+	typedef bool (*XRSettings_get_showDeviceView_m02403BF22E14ECCBC281E9E8DD4462F12F50B167_ftn) ();
+	static XRSettings_get_showDeviceView_m02403BF22E14ECCBC281E9E8DD4462F12F50B167_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_get_showDeviceView_m02403BF22E14ECCBC281E9E8DD4462F12F50B167_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_showDeviceView()");
+	bool icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// System.Void UnityEngine.XR.XRSettings::set_showDeviceView(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_set_showDeviceView_mCB49786110652E6E784E237B0A1294CF6EF092F1 (bool ___value0, const RuntimeMethod* method) 
+{
+	typedef void (*XRSettings_set_showDeviceView_mCB49786110652E6E784E237B0A1294CF6EF092F1_ftn) (bool);
+	static XRSettings_set_showDeviceView_mCB49786110652E6E784E237B0A1294CF6EF092F1_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_set_showDeviceView_mCB49786110652E6E784E237B0A1294CF6EF092F1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::set_showDeviceView(System.Boolean)");
+	_il2cpp_icall_func(___value0);
+}
 // System.Single UnityEngine.XR.XRSettings::get_eyeTextureResolutionScale()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9 (const RuntimeMethod* method) 
 {
