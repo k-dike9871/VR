@@ -612,193 +612,243 @@ extern void Haptic__ctor_m2F0C7BDCD2320E80E9F7ACED8E51A5E84CEC216E (void);
 extern void HapticInteractor_Start_m06D95CD22321E411CF839583A36F03FED57A5688 (void);
 // 0x00000133 System.Void HapticInteractor::.ctor()
 extern void HapticInteractor__ctor_mFB087D30362B241981C0924CCF1D498A8F069F40 (void);
-// 0x00000134 System.Void LookAt::Start()
+// 0x00000134 System.Boolean KeyPadController::get_HasUsedCorrectCode()
+extern void KeyPadController_get_HasUsedCorrectCode_mA4D7BDE6C210B371607913825C0220871163453E (void);
+// 0x00000135 System.Void KeyPadController::UserNumberEntry(System.Int32)
+extern void KeyPadController_UserNumberEntry_mC2D33A6E0CE7F3A2AB875BB2C47F2330DAE4C777 (void);
+// 0x00000136 System.Void KeyPadController::CheckPassword()
+extern void KeyPadController_CheckPassword_m4A0958116340BE18FEBA8627BCCAFB927016A822 (void);
+// 0x00000137 System.Void KeyPadController::correctPasswordGiven()
+extern void KeyPadController_correctPasswordGiven_m93F03A7FD6F25740C9D28FCA9B54340854C6C351 (void);
+// 0x00000138 System.Void KeyPadController::IncorrectPassword()
+extern void KeyPadController_IncorrectPassword_m246B4E266E928AD85E1352123D846774E729FB09 (void);
+// 0x00000139 System.Void KeyPadController::UpdateDisplay()
+extern void KeyPadController_UpdateDisplay_m81324ECDF8DF68EC93644766443C927206190AD1 (void);
+// 0x0000013A System.Void KeyPadController::DeleteEntry()
+extern void KeyPadController_DeleteEntry_m5DBAF729D4FA3EF1FFDADE1F9F4EDE17FD687F96 (void);
+// 0x0000013B System.Collections.IEnumerator KeyPadController::ResetKeycode()
+extern void KeyPadController_ResetKeycode_m77E6BE9CB44A9CD95182A15266918FBC9CD88D4D (void);
+// 0x0000013C System.Void KeyPadController::.ctor()
+extern void KeyPadController__ctor_m56C95099A5B156F22BAC13F81489E4E6A9BBCF0C (void);
+// 0x0000013D System.Void KeyPadController/<ResetKeycode>d__17::.ctor(System.Int32)
+extern void U3CResetKeycodeU3Ed__17__ctor_m6669DCA3516D19BA6EE844F654FF63052960538A (void);
+// 0x0000013E System.Void KeyPadController/<ResetKeycode>d__17::System.IDisposable.Dispose()
+extern void U3CResetKeycodeU3Ed__17_System_IDisposable_Dispose_m333434582EB1845C016FE94768210A0FC10D1F4A (void);
+// 0x0000013F System.Boolean KeyPadController/<ResetKeycode>d__17::MoveNext()
+extern void U3CResetKeycodeU3Ed__17_MoveNext_m031999E834EB90B330ABC4686B63DB9FA4E0585A (void);
+// 0x00000140 System.Object KeyPadController/<ResetKeycode>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CResetKeycodeU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD46ED104953EFAD33EE5546671C99B29C9484817 (void);
+// 0x00000141 System.Void KeyPadController/<ResetKeycode>d__17::System.Collections.IEnumerator.Reset()
+extern void U3CResetKeycodeU3Ed__17_System_Collections_IEnumerator_Reset_m9F9EF4EB98961071DDBB01CD27DEAEAACD90461F (void);
+// 0x00000142 System.Object KeyPadController/<ResetKeycode>d__17::System.Collections.IEnumerator.get_Current()
+extern void U3CResetKeycodeU3Ed__17_System_Collections_IEnumerator_get_Current_mA6E200CA633A91C824FA4572D250C063FE2AD428 (void);
+// 0x00000143 System.Void LookAt::Start()
 extern void LookAt_Start_m69C6A5AE610A33A7813F0901E60BC5F10A93BC34 (void);
-// 0x00000135 System.Void LookAt::Update()
+// 0x00000144 System.Void LookAt::Update()
 extern void LookAt_Update_mF319BDE9DC8103E027AF2606527FEBB476176308 (void);
-// 0x00000136 System.Void LookAt::.ctor()
+// 0x00000145 System.Void LookAt::.ctor()
 extern void LookAt__ctor_mC8898B99315BD18DEB0F9291F7E1C070F19CC575 (void);
-// 0x00000137 System.Void Timer::Start()
+// 0x00000146 System.Void SocketPuzzleManager::CompletedPuzzleTask()
+extern void SocketPuzzleManager_CompletedPuzzleTask_m12E7012A0608085E4C3C111A736BCCF9B71E5E1D (void);
+// 0x00000147 System.Void SocketPuzzleManager::CheckForPuzzleCompletion()
+extern void SocketPuzzleManager_CheckForPuzzleCompletion_m598B5896FBFC581D61416D10202F2279750B48DA (void);
+// 0x00000148 System.Void SocketPuzzleManager::PuzzlePieceRemoved()
+extern void SocketPuzzleManager_PuzzlePieceRemoved_m1B955927941746C8D74D580122BE3AD5596C1D97 (void);
+// 0x00000149 System.Void SocketPuzzleManager::.ctor()
+extern void SocketPuzzleManager__ctor_m065A5EFA2AD4A5DD94C9FE14292CBE7DE4F43058 (void);
+// 0x0000014A System.Void SocketPuzzlePiece::Awake()
+extern void SocketPuzzlePiece_Awake_m36634DE2173896B171DC26F82C2E559585597D1C (void);
+// 0x0000014B System.Void SocketPuzzlePiece::OnEnable()
+extern void SocketPuzzlePiece_OnEnable_m7AEA67CBE21C000DA9F034CFD049E0386218063E (void);
+// 0x0000014C System.Void SocketPuzzlePiece::OnDisable()
+extern void SocketPuzzlePiece_OnDisable_m9725B80B96F9EB617369412B4AC6AC29323AD8DB (void);
+// 0x0000014D System.Void SocketPuzzlePiece::ObjectSnapped(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs)
+extern void SocketPuzzlePiece_ObjectSnapped_m72D79F32B0CA61A9791B3C87378652409CCA1FB9 (void);
+// 0x0000014E System.Void SocketPuzzlePiece::ObjectRemoved(UnityEngine.XR.Interaction.Toolkit.SelectExitEventArgs)
+extern void SocketPuzzlePiece_ObjectRemoved_m0A5AA26AE1CAFFFE32212297732B91E2BB953FAE (void);
+// 0x0000014F System.Void SocketPuzzlePiece::.ctor()
+extern void SocketPuzzlePiece__ctor_m4D956FD651CF54EC197444DCCB7CC1055272310F (void);
+// 0x00000150 System.Void Timer::Start()
 extern void Timer_Start_m6820D211A06B2E5E24795D7EBE67EE865F39BC43 (void);
-// 0x00000138 System.Void Timer::Update()
+// 0x00000151 System.Void Timer::Update()
 extern void Timer_Update_m3AC30EFD54E8E1010F6E601AE179212E71E6B2CD (void);
-// 0x00000139 System.Void Timer::.ctor()
+// 0x00000152 System.Void Timer::.ctor()
 extern void Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5 (void);
-// 0x0000013A System.Void XROffsetGrabInteractable::Start()
+// 0x00000153 System.Void XROffsetGrabInteractable::Start()
 extern void XROffsetGrabInteractable_Start_mE236D4920E82DF80A8770C4C623082FDB78BAB72 (void);
-// 0x0000013B System.Void XROffsetGrabInteractable::OnSelectEntered(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs)
+// 0x00000154 System.Void XROffsetGrabInteractable::OnSelectEntered(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs)
 extern void XROffsetGrabInteractable_OnSelectEntered_m7D4FCF61F1D856D7CBA7F63C7CA0DD8334CD12BA (void);
-// 0x0000013C System.Void XROffsetGrabInteractable::.ctor()
+// 0x00000155 System.Void XROffsetGrabInteractable::.ctor()
 extern void XROffsetGrabInteractable__ctor_m22E34DD0981008D3B61E74E02FA201FBF12FFD60 (void);
-// 0x0000013D UnityEngine.Vector3 ControllerInformation::get_RightControllerPosition()
+// 0x00000156 UnityEngine.Vector3 ControllerInformation::get_RightControllerPosition()
 extern void ControllerInformation_get_RightControllerPosition_mAAC38F2FFA36D5A076B418B98F0167B14F61DAFB (void);
-// 0x0000013E UnityEngine.Vector3 ControllerInformation::get_LeftControllerPosition()
+// 0x00000157 UnityEngine.Vector3 ControllerInformation::get_LeftControllerPosition()
 extern void ControllerInformation_get_LeftControllerPosition_mBEFAF7D4A054ACF68EFBBD9CF35D3E43EB00D853 (void);
-// 0x0000013F UnityEngine.Vector3 ControllerInformation::get_RightControllerOrientation()
+// 0x00000158 UnityEngine.Vector3 ControllerInformation::get_RightControllerOrientation()
 extern void ControllerInformation_get_RightControllerOrientation_m420F3F5B60783AA7EEFF478124BB26AB52E16B5E (void);
-// 0x00000140 UnityEngine.Vector3 ControllerInformation::get_LeftControllerOrientation()
+// 0x00000159 UnityEngine.Vector3 ControllerInformation::get_LeftControllerOrientation()
 extern void ControllerInformation_get_LeftControllerOrientation_m15552E8AADA66433004B92B6B8F6170FD61630E7 (void);
-// 0x00000141 UnityEngine.Vector3 ControllerInformation::get_RightControllerVelocity()
+// 0x0000015A UnityEngine.Vector3 ControllerInformation::get_RightControllerVelocity()
 extern void ControllerInformation_get_RightControllerVelocity_m86307D8E775E84F7F43F6BED60BBCE3CC4287EE9 (void);
-// 0x00000142 UnityEngine.Vector3 ControllerInformation::get_LeftControllerVelocity()
+// 0x0000015B UnityEngine.Vector3 ControllerInformation::get_LeftControllerVelocity()
 extern void ControllerInformation_get_LeftControllerVelocity_mE16790840CC2CF73760C08EACFA37573BC2196DD (void);
-// 0x00000143 System.Single ControllerInformation::get_LeftControllerGrip()
+// 0x0000015C System.Single ControllerInformation::get_LeftControllerGrip()
 extern void ControllerInformation_get_LeftControllerGrip_m070C222AA8F2A780F7013725A51F685398053402 (void);
-// 0x00000144 System.Single ControllerInformation::get_RigthControllerGrip()
+// 0x0000015D System.Single ControllerInformation::get_RigthControllerGrip()
 extern void ControllerInformation_get_RigthControllerGrip_mD23736BDC0BFD7EDD3F14EF5BE60BBDC0C243444 (void);
-// 0x00000145 System.Boolean ControllerInformation::get_IsLeftGripPressed()
+// 0x0000015E System.Boolean ControllerInformation::get_IsLeftGripPressed()
 extern void ControllerInformation_get_IsLeftGripPressed_mFF91527657B40C26433D49A54D10D854D4E53675 (void);
-// 0x00000146 System.Boolean ControllerInformation::get_IsRightGripPressed()
+// 0x0000015F System.Boolean ControllerInformation::get_IsRightGripPressed()
 extern void ControllerInformation_get_IsRightGripPressed_m75A01FAED1B3C625AF299BBF1F4DDBA98977FEC1 (void);
-// 0x00000147 System.Boolean ControllerInformation::get_IsLeftPrimaryButtonPressed()
+// 0x00000160 System.Boolean ControllerInformation::get_IsLeftPrimaryButtonPressed()
 extern void ControllerInformation_get_IsLeftPrimaryButtonPressed_mDD4FC09B309AB742ED561A659C4B2616646B7A93 (void);
-// 0x00000148 System.Boolean ControllerInformation::get_IsLeftSecondaryButtonPressed()
+// 0x00000161 System.Boolean ControllerInformation::get_IsLeftSecondaryButtonPressed()
 extern void ControllerInformation_get_IsLeftSecondaryButtonPressed_mB523EA42063D403C6771EE964B705D41402DB36B (void);
-// 0x00000149 System.Boolean ControllerInformation::get_IsRightPrimaryButtonPressed()
+// 0x00000162 System.Boolean ControllerInformation::get_IsRightPrimaryButtonPressed()
 extern void ControllerInformation_get_IsRightPrimaryButtonPressed_mEF9E52347076D651CEBA9C948DF9F384A6DB730B (void);
-// 0x0000014A System.Boolean ControllerInformation::get_IsRightSecondaryButtonPressed()
+// 0x00000163 System.Boolean ControllerInformation::get_IsRightSecondaryButtonPressed()
 extern void ControllerInformation_get_IsRightSecondaryButtonPressed_mCF4E1830BA2D2A80F29F9A88E5A939AF95DD903F (void);
-// 0x0000014B System.Single ControllerInformation::get_LeftControllerTriggerPressure()
+// 0x00000164 System.Single ControllerInformation::get_LeftControllerTriggerPressure()
 extern void ControllerInformation_get_LeftControllerTriggerPressure_m0542F1A837ADD4CD3B2F2F8B276CE56C6BD573BD (void);
-// 0x0000014C System.Single ControllerInformation::get_RigthControllerTriggerPressure()
+// 0x00000165 System.Single ControllerInformation::get_RigthControllerTriggerPressure()
 extern void ControllerInformation_get_RigthControllerTriggerPressure_m06B359C84B50C403D784AE2B30A851551DF9A025 (void);
-// 0x0000014D System.Boolean ControllerInformation::get_IsLeftTriggerPressed()
+// 0x00000166 System.Boolean ControllerInformation::get_IsLeftTriggerPressed()
 extern void ControllerInformation_get_IsLeftTriggerPressed_mC502F223AD24B4A030A59386182C93EF960707F9 (void);
-// 0x0000014E System.Boolean ControllerInformation::get_IsRightTriggerPressed()
+// 0x00000167 System.Boolean ControllerInformation::get_IsRightTriggerPressed()
 extern void ControllerInformation_get_IsRightTriggerPressed_m6D746535DAFCC4B31A4DB310B1864797A494A8CD (void);
-// 0x0000014F System.Boolean ControllerInformation::get_IsLeftThumbStickPressed()
+// 0x00000168 System.Boolean ControllerInformation::get_IsLeftThumbStickPressed()
 extern void ControllerInformation_get_IsLeftThumbStickPressed_m878B884ADD6CF2F7B5AF483FCA3BA6EF9397ED36 (void);
-// 0x00000150 System.Boolean ControllerInformation::get_IsRightThumbStickPressed()
+// 0x00000169 System.Boolean ControllerInformation::get_IsRightThumbStickPressed()
 extern void ControllerInformation_get_IsRightThumbStickPressed_mAB8D14383023D73F26140FE987630FD1088F6D83 (void);
-// 0x00000151 System.Boolean ControllerInformation::get_IsLeftThumbStickTouched()
+// 0x0000016A System.Boolean ControllerInformation::get_IsLeftThumbStickTouched()
 extern void ControllerInformation_get_IsLeftThumbStickTouched_mBCD38338B6C960E6FF323C0AA5C3A063D771122E (void);
-// 0x00000152 System.Boolean ControllerInformation::get_IsRightThumbStickTouched()
+// 0x0000016B System.Boolean ControllerInformation::get_IsRightThumbStickTouched()
 extern void ControllerInformation_get_IsRightThumbStickTouched_mF1E928D4957FB49163FD66EF862CF7FFB9F4FE87 (void);
-// 0x00000153 UnityEngine.Vector2 ControllerInformation::get_LeftControllerThumbStickAxis()
+// 0x0000016C UnityEngine.Vector2 ControllerInformation::get_LeftControllerThumbStickAxis()
 extern void ControllerInformation_get_LeftControllerThumbStickAxis_m60F07CC9F646E55D802D10371FFEF4437D6A5068 (void);
-// 0x00000154 UnityEngine.Vector2 ControllerInformation::get_RightControllerThumbStickAxis()
+// 0x0000016D UnityEngine.Vector2 ControllerInformation::get_RightControllerThumbStickAxis()
 extern void ControllerInformation_get_RightControllerThumbStickAxis_mBF4848438BD850F247D2D1FEE0B462450768DD3E (void);
-// 0x00000155 System.Void ControllerInformation::Update()
+// 0x0000016E System.Void ControllerInformation::Update()
 extern void ControllerInformation_Update_m53AC2BB36064791FD2F827CF920B1DC73C70EA35 (void);
-// 0x00000156 System.Void ControllerInformation::setControllers()
+// 0x0000016F System.Void ControllerInformation::setControllers()
 extern void ControllerInformation_setControllers_mA92B80F40D4450604A6C4AAD25394FD6F556DA7B (void);
-// 0x00000157 System.Void ControllerInformation::storeControllersParameters()
+// 0x00000170 System.Void ControllerInformation::storeControllersParameters()
 extern void ControllerInformation_storeControllersParameters_mA5AB96461EE0B836CFF1952D4715C0BAEAB008F3 (void);
-// 0x00000158 UnityEngine.Vector3 ControllerInformation::getControllerPosition(UnityEngine.XR.InputDevice)
+// 0x00000171 UnityEngine.Vector3 ControllerInformation::getControllerPosition(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_getControllerPosition_m8AEEFFC6022C5022FF34830EAAA094E071985BEB (void);
-// 0x00000159 UnityEngine.Vector3 ControllerInformation::getControllerOrientation(UnityEngine.XR.InputDevice)
+// 0x00000172 UnityEngine.Vector3 ControllerInformation::getControllerOrientation(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_getControllerOrientation_mBAE97FE91DA114088E3D1EF421BE40CA7E9790A4 (void);
-// 0x0000015A UnityEngine.Vector3 ControllerInformation::getControllerVelocity(UnityEngine.XR.InputDevice)
+// 0x00000173 UnityEngine.Vector3 ControllerInformation::getControllerVelocity(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_getControllerVelocity_m0C3DA9998437A8E679724F103F083266E667C1EF (void);
-// 0x0000015B System.Single ControllerInformation::getControllerGrip(UnityEngine.XR.InputDevice)
+// 0x00000174 System.Single ControllerInformation::getControllerGrip(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_getControllerGrip_mAC090658E0AA4764B3B583962009E4EF24B5152D (void);
-// 0x0000015C System.Boolean ControllerInformation::isGripPressed(UnityEngine.XR.InputDevice)
+// 0x00000175 System.Boolean ControllerInformation::isGripPressed(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_isGripPressed_mD88689447E11D732BDBAA9984883921404F8149A (void);
-// 0x0000015D System.Single ControllerInformation::getControllerTrigger(UnityEngine.XR.InputDevice)
+// 0x00000176 System.Single ControllerInformation::getControllerTrigger(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_getControllerTrigger_m6DE24D5A5087105BD0870257B9E5F30CC7A530CF (void);
-// 0x0000015E System.Boolean ControllerInformation::isTriggerPressed(UnityEngine.XR.InputDevice)
+// 0x00000177 System.Boolean ControllerInformation::isTriggerPressed(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_isTriggerPressed_m9B3F9C3604C3DBAC14AB0F72B6402834743ED25F (void);
-// 0x0000015F System.Boolean ControllerInformation::isPrimaryButtonPressed(UnityEngine.XR.InputDevice)
+// 0x00000178 System.Boolean ControllerInformation::isPrimaryButtonPressed(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_isPrimaryButtonPressed_m907C34E77FE167A2F6C4D27255C75E5552E5E012 (void);
-// 0x00000160 System.Boolean ControllerInformation::isSecondaryButtonPressed(UnityEngine.XR.InputDevice)
+// 0x00000179 System.Boolean ControllerInformation::isSecondaryButtonPressed(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_isSecondaryButtonPressed_m7DD3EEBDAA11102216A0FACE44E9DD5A166E138E (void);
-// 0x00000161 System.Boolean ControllerInformation::isThumbStickPressed(UnityEngine.XR.InputDevice)
+// 0x0000017A System.Boolean ControllerInformation::isThumbStickPressed(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_isThumbStickPressed_mBF88F3280F29AF5BE94426914288C0311D631415 (void);
-// 0x00000162 System.Boolean ControllerInformation::isThumbStickTouched(UnityEngine.XR.InputDevice)
+// 0x0000017B System.Boolean ControllerInformation::isThumbStickTouched(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_isThumbStickTouched_mE8A26BD3CB0C420DA3F2360252328E5F24F2751C (void);
-// 0x00000163 UnityEngine.Vector2 ControllerInformation::getThumbStickAxis(UnityEngine.XR.InputDevice)
+// 0x0000017C UnityEngine.Vector2 ControllerInformation::getThumbStickAxis(UnityEngine.XR.InputDevice)
 extern void ControllerInformation_getThumbStickAxis_m8B291BE461C28AC03CDE8C339F3590A92CCA1F93 (void);
-// 0x00000164 System.Void ControllerInformation::.ctor()
+// 0x0000017D System.Void ControllerInformation::.ctor()
 extern void ControllerInformation__ctor_m36F2E49417C4E108158786D90742E9387762286C (void);
-// 0x00000165 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentOrientationTxt()
+// 0x0000017E TMPro.TextMeshPro ControllerInformationPanel::get_CurrentOrientationTxt()
 extern void ControllerInformationPanel_get_CurrentOrientationTxt_mAD6D8163269E7A378F1BE3716B7E5951C948F3AE (void);
-// 0x00000166 System.Void ControllerInformationPanel::set_CurrentOrientationTxt(TMPro.TextMeshPro)
+// 0x0000017F System.Void ControllerInformationPanel::set_CurrentOrientationTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentOrientationTxt_m6EE1974A7F1EF507A691349D2BF9209B68D9DFE2 (void);
-// 0x00000167 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentPositionTxt()
+// 0x00000180 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentPositionTxt()
 extern void ControllerInformationPanel_get_CurrentPositionTxt_m496913142D9BC420DF5392F1139F3A8780BB44F3 (void);
-// 0x00000168 System.Void ControllerInformationPanel::set_CurrentPositionTxt(TMPro.TextMeshPro)
+// 0x00000181 System.Void ControllerInformationPanel::set_CurrentPositionTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentPositionTxt_m863821EDE98F25FCE3A8F4769AC2004782F2E333 (void);
-// 0x00000169 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentVelocityTxt()
+// 0x00000182 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentVelocityTxt()
 extern void ControllerInformationPanel_get_CurrentVelocityTxt_m5005594561E5061DC69E4E53568C7B8AFFE1284E (void);
-// 0x0000016A System.Void ControllerInformationPanel::set_CurrentVelocityTxt(TMPro.TextMeshPro)
+// 0x00000183 System.Void ControllerInformationPanel::set_CurrentVelocityTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentVelocityTxt_mE43E002AEF2A265378A47D64303811ECD63B4D7A (void);
-// 0x0000016B TMPro.TextMeshPro ControllerInformationPanel::get_CurrentSpeedTxt()
+// 0x00000184 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentSpeedTxt()
 extern void ControllerInformationPanel_get_CurrentSpeedTxt_m1C84C667DCC2FB1B5325526F80903865319CE28F (void);
-// 0x0000016C System.Void ControllerInformationPanel::set_CurrentSpeedTxt(TMPro.TextMeshPro)
+// 0x00000185 System.Void ControllerInformationPanel::set_CurrentSpeedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentSpeedTxt_m0C9F1E6DEA4365DD3871EFC4C238CA3C70C884DB (void);
-// 0x0000016D TMPro.TextMeshPro ControllerInformationPanel::get_CurrentGripPressureTxt()
+// 0x00000186 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentGripPressureTxt()
 extern void ControllerInformationPanel_get_CurrentGripPressureTxt_mF04BC8D21E23164C269854B79D93C3598750A933 (void);
-// 0x0000016E System.Void ControllerInformationPanel::set_CurrentGripPressureTxt(TMPro.TextMeshPro)
+// 0x00000187 System.Void ControllerInformationPanel::set_CurrentGripPressureTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentGripPressureTxt_mA93B8C76B545B09BA472E1B863E29AC7D45384D7 (void);
-// 0x0000016F TMPro.TextMeshPro ControllerInformationPanel::get_CurrentGripPressedTxt()
+// 0x00000188 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentGripPressedTxt()
 extern void ControllerInformationPanel_get_CurrentGripPressedTxt_m8346DD87D1614184044B60F1964FBE94BFC9FD97 (void);
-// 0x00000170 System.Void ControllerInformationPanel::set_CurrentGripPressedTxt(TMPro.TextMeshPro)
+// 0x00000189 System.Void ControllerInformationPanel::set_CurrentGripPressedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentGripPressedTxt_mC636CA385167DB24E6572C6DB1468870A9889C04 (void);
-// 0x00000171 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentTriggerPressureTxt()
+// 0x0000018A TMPro.TextMeshPro ControllerInformationPanel::get_CurrentTriggerPressureTxt()
 extern void ControllerInformationPanel_get_CurrentTriggerPressureTxt_m366AED5016E65D9982E793F5664BC1DD8A71D956 (void);
-// 0x00000172 System.Void ControllerInformationPanel::set_CurrentTriggerPressureTxt(TMPro.TextMeshPro)
+// 0x0000018B System.Void ControllerInformationPanel::set_CurrentTriggerPressureTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentTriggerPressureTxt_m6F4D8E5BB2030E933A3E2AB6D4F111D2F645988C (void);
-// 0x00000173 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentTriggerPressedTxt()
+// 0x0000018C TMPro.TextMeshPro ControllerInformationPanel::get_CurrentTriggerPressedTxt()
 extern void ControllerInformationPanel_get_CurrentTriggerPressedTxt_m78A42EAA0BC9F6C560E7195376E849C6E35E18F6 (void);
-// 0x00000174 System.Void ControllerInformationPanel::set_CurrentTriggerPressedTxt(TMPro.TextMeshPro)
+// 0x0000018D System.Void ControllerInformationPanel::set_CurrentTriggerPressedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentTriggerPressedTxt_mF1000EAA6058571699BCC23AA1AC995E2BA0F9B9 (void);
-// 0x00000175 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentPrimaryBPressedTxt()
+// 0x0000018E TMPro.TextMeshPro ControllerInformationPanel::get_CurrentPrimaryBPressedTxt()
 extern void ControllerInformationPanel_get_CurrentPrimaryBPressedTxt_m9C1768D0E7DEE5D500C3E71EE6D39B5BE2D94DA1 (void);
-// 0x00000176 System.Void ControllerInformationPanel::set_CurrentPrimaryBPressedTxt(TMPro.TextMeshPro)
+// 0x0000018F System.Void ControllerInformationPanel::set_CurrentPrimaryBPressedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentPrimaryBPressedTxt_m6CC68001A0C9D53F2739B2F8FC398997ABC735F5 (void);
-// 0x00000177 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentSecondaryBPressedTxt()
+// 0x00000190 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentSecondaryBPressedTxt()
 extern void ControllerInformationPanel_get_CurrentSecondaryBPressedTxt_m463BE7C7F3DE6A4FD7249D2BE578758135C21669 (void);
-// 0x00000178 System.Void ControllerInformationPanel::set_CurrentSecondaryBPressedTxt(TMPro.TextMeshPro)
+// 0x00000191 System.Void ControllerInformationPanel::set_CurrentSecondaryBPressedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentSecondaryBPressedTxt_m189433F91574BEFCAFB6B76A52EB5240A68C7956 (void);
-// 0x00000179 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentThumbStickPressedTxt()
+// 0x00000192 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentThumbStickPressedTxt()
 extern void ControllerInformationPanel_get_CurrentThumbStickPressedTxt_m8F32C2A3F278BD42610DA2C2D09047951C6BCDC6 (void);
-// 0x0000017A System.Void ControllerInformationPanel::set_CurrentThumbStickPressedTxt(TMPro.TextMeshPro)
+// 0x00000193 System.Void ControllerInformationPanel::set_CurrentThumbStickPressedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentThumbStickPressedTxt_mF82F4E6538A8C70EB936E585637F97CEF6491139 (void);
-// 0x0000017B TMPro.TextMeshPro ControllerInformationPanel::get_CurrentThumbStickTouchedTxt()
+// 0x00000194 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentThumbStickTouchedTxt()
 extern void ControllerInformationPanel_get_CurrentThumbStickTouchedTxt_m2CCC0BB962EBF88AB5BBA2DE0A91A68FA6FEB2DB (void);
-// 0x0000017C System.Void ControllerInformationPanel::set_CurrentThumbStickTouchedTxt(TMPro.TextMeshPro)
+// 0x00000195 System.Void ControllerInformationPanel::set_CurrentThumbStickTouchedTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentThumbStickTouchedTxt_mA73FAA20618100B270F68684B788886E5901EAF4 (void);
-// 0x0000017D TMPro.TextMeshPro ControllerInformationPanel::get_CurrentThumbStickAxisValueTxt()
+// 0x00000196 TMPro.TextMeshPro ControllerInformationPanel::get_CurrentThumbStickAxisValueTxt()
 extern void ControllerInformationPanel_get_CurrentThumbStickAxisValueTxt_m75F7CF95193CEC74DE05C1FE90E0939764ECEB2D (void);
-// 0x0000017E System.Void ControllerInformationPanel::set_CurrentThumbStickAxisValueTxt(TMPro.TextMeshPro)
+// 0x00000197 System.Void ControllerInformationPanel::set_CurrentThumbStickAxisValueTxt(TMPro.TextMeshPro)
 extern void ControllerInformationPanel_set_CurrentThumbStickAxisValueTxt_mE6DD55C78154287AF7BA6AFED160ED7E81AB336B (void);
-// 0x0000017F System.Void ControllerInformationPanel::Update()
+// 0x00000198 System.Void ControllerInformationPanel::Update()
 extern void ControllerInformationPanel_Update_mB5EE5599134C7D1257F6A3F8D9BD07DFBEDA2E36 (void);
-// 0x00000180 System.Void ControllerInformationPanel::setControllerInformationPanel()
+// 0x00000199 System.Void ControllerInformationPanel::setControllerInformationPanel()
 extern void ControllerInformationPanel_setControllerInformationPanel_m8EA2F58770F0C3A51BCB446BC358CF7DA71F9255 (void);
-// 0x00000181 System.Void ControllerInformationPanel::setControllerPosition()
+// 0x0000019A System.Void ControllerInformationPanel::setControllerPosition()
 extern void ControllerInformationPanel_setControllerPosition_m32B928178DA0BA345A60D369BCDA5CC832788623 (void);
-// 0x00000182 System.Void ControllerInformationPanel::setControllerOrientation()
+// 0x0000019B System.Void ControllerInformationPanel::setControllerOrientation()
 extern void ControllerInformationPanel_setControllerOrientation_mA3EB657994DBC3412F5231B50F2B7F457796533A (void);
-// 0x00000183 System.Void ControllerInformationPanel::setControllerVelocity()
+// 0x0000019C System.Void ControllerInformationPanel::setControllerVelocity()
 extern void ControllerInformationPanel_setControllerVelocity_m161A6276F38CAB1EDC211CCF38DFE04DFD9A7968 (void);
-// 0x00000184 System.Void ControllerInformationPanel::setControllerSpeed()
+// 0x0000019D System.Void ControllerInformationPanel::setControllerSpeed()
 extern void ControllerInformationPanel_setControllerSpeed_mA6453711A3E9AF8139AC44C09A422F3DF49C9797 (void);
-// 0x00000185 System.Void ControllerInformationPanel::setControllerGripPressure()
+// 0x0000019E System.Void ControllerInformationPanel::setControllerGripPressure()
 extern void ControllerInformationPanel_setControllerGripPressure_mA303F1C35132284B5C9F65DFF56DF85B915483F9 (void);
-// 0x00000186 System.Void ControllerInformationPanel::setIsGripPresed()
+// 0x0000019F System.Void ControllerInformationPanel::setIsGripPresed()
 extern void ControllerInformationPanel_setIsGripPresed_m9A613FAA957AC249C6BD5ABA1E840DC16A541961 (void);
-// 0x00000187 System.Void ControllerInformationPanel::setControllerTriggerPressure()
+// 0x000001A0 System.Void ControllerInformationPanel::setControllerTriggerPressure()
 extern void ControllerInformationPanel_setControllerTriggerPressure_m948EA4C6698B901D878F314A328E8A0BE64D8D53 (void);
-// 0x00000188 System.Void ControllerInformationPanel::setIsTriggerPresed()
+// 0x000001A1 System.Void ControllerInformationPanel::setIsTriggerPresed()
 extern void ControllerInformationPanel_setIsTriggerPresed_m3F8C1E19AD75A324CDA02FEE8D1FC77A84F56784 (void);
-// 0x00000189 System.Void ControllerInformationPanel::setIsPrimaryBPresed()
+// 0x000001A2 System.Void ControllerInformationPanel::setIsPrimaryBPresed()
 extern void ControllerInformationPanel_setIsPrimaryBPresed_mBF3C5ADC8A01140F668F29A132B26C2C5639F9D1 (void);
-// 0x0000018A System.Void ControllerInformationPanel::setIsSecondaryBPresed()
+// 0x000001A3 System.Void ControllerInformationPanel::setIsSecondaryBPresed()
 extern void ControllerInformationPanel_setIsSecondaryBPresed_mD13A330B19FDC943DFEE01441B164464AF1513A0 (void);
-// 0x0000018B System.Void ControllerInformationPanel::setIsThumbStickPresed()
+// 0x000001A4 System.Void ControllerInformationPanel::setIsThumbStickPresed()
 extern void ControllerInformationPanel_setIsThumbStickPresed_mC678D101BBC42855D5B82D9802C52563AA9EC85E (void);
-// 0x0000018C System.Void ControllerInformationPanel::setIsThumbStickTouched()
+// 0x000001A5 System.Void ControllerInformationPanel::setIsThumbStickTouched()
 extern void ControllerInformationPanel_setIsThumbStickTouched_mC1CB3F59C22A4BCD08BB82DBC8389B7DFE0C4675 (void);
-// 0x0000018D System.Void ControllerInformationPanel::setCurrentThumbStickAxisValue()
+// 0x000001A6 System.Void ControllerInformationPanel::setCurrentThumbStickAxisValue()
 extern void ControllerInformationPanel_setCurrentThumbStickAxisValue_mB820FC21768F987673574B29B4922E56324C0332 (void);
-// 0x0000018E System.Void ControllerInformationPanel::.ctor()
+// 0x000001A7 System.Void ControllerInformationPanel::.ctor()
 extern void ControllerInformationPanel__ctor_mD3A8D1A76BB2A1F8EDBBC0288B79F3DA78B63FD1 (void);
-// 0x0000018F System.Void Unity.Template.VR.XRPlatformControllerSetup::Start()
+// 0x000001A8 System.Void Unity.Template.VR.XRPlatformControllerSetup::Start()
 extern void XRPlatformControllerSetup_Start_m1F22FCA29DFD83DC0E343C3F391D04A7C52085BF (void);
-// 0x00000190 System.Void Unity.Template.VR.XRPlatformControllerSetup::.ctor()
+// 0x000001A9 System.Void Unity.Template.VR.XRPlatformControllerSetup::.ctor()
 extern void XRPlatformControllerSetup__ctor_mF9A3998AF90962CF8F35BAF2221558BDF5F6596E (void);
-static Il2CppMethodPointer s_methodPointers[400] = 
+static Il2CppMethodPointer s_methodPointers[425] = 
 {
 	DisplayObjectScale_Start_m3924594A623F5C8793D42AD7B73740485D0426CA,
 	DisplayObjectScale_initialise_mF4D8EF6A4ACB2E3B89DB92A3451EB92900CBFF5B,
@@ -1107,9 +1157,34 @@ static Il2CppMethodPointer s_methodPointers[400] =
 	Haptic__ctor_m2F0C7BDCD2320E80E9F7ACED8E51A5E84CEC216E,
 	HapticInteractor_Start_m06D95CD22321E411CF839583A36F03FED57A5688,
 	HapticInteractor__ctor_mFB087D30362B241981C0924CCF1D498A8F069F40,
+	KeyPadController_get_HasUsedCorrectCode_mA4D7BDE6C210B371607913825C0220871163453E,
+	KeyPadController_UserNumberEntry_mC2D33A6E0CE7F3A2AB875BB2C47F2330DAE4C777,
+	KeyPadController_CheckPassword_m4A0958116340BE18FEBA8627BCCAFB927016A822,
+	KeyPadController_correctPasswordGiven_m93F03A7FD6F25740C9D28FCA9B54340854C6C351,
+	KeyPadController_IncorrectPassword_m246B4E266E928AD85E1352123D846774E729FB09,
+	KeyPadController_UpdateDisplay_m81324ECDF8DF68EC93644766443C927206190AD1,
+	KeyPadController_DeleteEntry_m5DBAF729D4FA3EF1FFDADE1F9F4EDE17FD687F96,
+	KeyPadController_ResetKeycode_m77E6BE9CB44A9CD95182A15266918FBC9CD88D4D,
+	KeyPadController__ctor_m56C95099A5B156F22BAC13F81489E4E6A9BBCF0C,
+	U3CResetKeycodeU3Ed__17__ctor_m6669DCA3516D19BA6EE844F654FF63052960538A,
+	U3CResetKeycodeU3Ed__17_System_IDisposable_Dispose_m333434582EB1845C016FE94768210A0FC10D1F4A,
+	U3CResetKeycodeU3Ed__17_MoveNext_m031999E834EB90B330ABC4686B63DB9FA4E0585A,
+	U3CResetKeycodeU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD46ED104953EFAD33EE5546671C99B29C9484817,
+	U3CResetKeycodeU3Ed__17_System_Collections_IEnumerator_Reset_m9F9EF4EB98961071DDBB01CD27DEAEAACD90461F,
+	U3CResetKeycodeU3Ed__17_System_Collections_IEnumerator_get_Current_mA6E200CA633A91C824FA4572D250C063FE2AD428,
 	LookAt_Start_m69C6A5AE610A33A7813F0901E60BC5F10A93BC34,
 	LookAt_Update_mF319BDE9DC8103E027AF2606527FEBB476176308,
 	LookAt__ctor_mC8898B99315BD18DEB0F9291F7E1C070F19CC575,
+	SocketPuzzleManager_CompletedPuzzleTask_m12E7012A0608085E4C3C111A736BCCF9B71E5E1D,
+	SocketPuzzleManager_CheckForPuzzleCompletion_m598B5896FBFC581D61416D10202F2279750B48DA,
+	SocketPuzzleManager_PuzzlePieceRemoved_m1B955927941746C8D74D580122BE3AD5596C1D97,
+	SocketPuzzleManager__ctor_m065A5EFA2AD4A5DD94C9FE14292CBE7DE4F43058,
+	SocketPuzzlePiece_Awake_m36634DE2173896B171DC26F82C2E559585597D1C,
+	SocketPuzzlePiece_OnEnable_m7AEA67CBE21C000DA9F034CFD049E0386218063E,
+	SocketPuzzlePiece_OnDisable_m9725B80B96F9EB617369412B4AC6AC29323AD8DB,
+	SocketPuzzlePiece_ObjectSnapped_m72D79F32B0CA61A9791B3C87378652409CCA1FB9,
+	SocketPuzzlePiece_ObjectRemoved_m0A5AA26AE1CAFFFE32212297732B91E2BB953FAE,
+	SocketPuzzlePiece__ctor_m4D956FD651CF54EC197444DCCB7CC1055272310F,
 	Timer_Start_m6820D211A06B2E5E24795D7EBE67EE865F39BC43,
 	Timer_Update_m3AC30EFD54E8E1010F6E601AE179212E71E6B2CD,
 	Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5,
@@ -1201,7 +1276,7 @@ static Il2CppMethodPointer s_methodPointers[400] =
 	XRPlatformControllerSetup_Start_m1F22FCA29DFD83DC0E343C3F391D04A7C52085BF,
 	XRPlatformControllerSetup__ctor_mF9A3998AF90962CF8F35BAF2221558BDF5F6596E,
 };
-static const int32_t s_InvokerIndices[400] = 
+static const int32_t s_InvokerIndices[425] = 
 {
 	8066,
 	8066,
@@ -1510,8 +1585,33 @@ static const int32_t s_InvokerIndices[400] =
 	8066,
 	8066,
 	8066,
+	7808,
+	6348,
 	8066,
 	8066,
+	8066,
+	8066,
+	8066,
+	7923,
+	8066,
+	6348,
+	8066,
+	7808,
+	7923,
+	8066,
+	7923,
+	8066,
+	8066,
+	8066,
+	8066,
+	8066,
+	8066,
+	8066,
+	8066,
+	8066,
+	8066,
+	6383,
+	6383,
 	8066,
 	8066,
 	8066,
@@ -1612,7 +1712,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	400,
+	425,
 	s_methodPointers,
 	0,
 	NULL,
