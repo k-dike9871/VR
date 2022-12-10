@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
+    public GameObject GameOver;
     public Slider timerSlider;
     public TextMeshProUGUI timerText;
     public float gameTime;
+
+    public Event TimeOver;
 
     private bool stopTimer;
     // Start is called before the first frame update
@@ -31,7 +36,9 @@ public class Timer : MonoBehaviour
 
         if(time <= 0)
         {
+            //Display game over screen when timer runs out
             stopTimer = true;
+            FindObjectOfType<GameManager>().endgame();
         }
 
         if(stopTimer == false)
@@ -40,4 +47,5 @@ public class Timer : MonoBehaviour
             timerSlider.value = time;
         }
     }
+
 }

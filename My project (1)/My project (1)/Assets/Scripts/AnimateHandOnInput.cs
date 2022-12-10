@@ -10,15 +10,11 @@ public class AnimateHandOnInput : MonoBehaviour
 
     public Animator handAnimator;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
+        //Two different trigger values will activate different animations
         float triggerValue = pinchAnimationAction.action.ReadValue<float>();
         handAnimator.SetFloat("Trigger", triggerValue);
         Debug.Log(triggerValue);

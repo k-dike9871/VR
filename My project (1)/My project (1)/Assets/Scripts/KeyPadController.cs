@@ -23,6 +23,7 @@ public class KeyPadController : MonoBehaviour
 
     public void UserNumberEntry(int selectedNum)
     {
+        //Unable to input anymore than 4 numbers
         if (inputPasswordList.Count >= 4)
             return;
 
@@ -32,6 +33,7 @@ public class KeyPadController : MonoBehaviour
 
         if (inputPasswordList.Count >= 4)
             CheckPassword();
+        //At 4 numbers, checks if password is correct
     }
 
     private void CheckPassword()
@@ -51,12 +53,14 @@ public class KeyPadController : MonoBehaviour
     {
         if (allowMultipleActivations)
         {
+            //Check Box in engine to allow multiple uses for the password
             oncorrectPassword.Invoke();
             codeDisplay.text = successText;
             StartCoroutine(ResetKeycode());
         }
         else if(!allowMultipleActivations && !hasUsedCorrectCode)
         {
+            //Starts event after successful password
             oncorrectPassword.Invoke();
             hasUsedCorrectCode = true;
             codeDisplay.text = successText;
@@ -65,6 +69,7 @@ public class KeyPadController : MonoBehaviour
 
     private void IncorrectPassword()
     {
+        //Reset the display after wrong password
         onIncorrectPassword.Invoke();
         StartCoroutine(ResetKeycode());
     }
@@ -91,6 +96,7 @@ public class KeyPadController : MonoBehaviour
 
     IEnumerator ResetKeycode()
     {
+        //Small delay before restting password
         yield return new WaitForSeconds(resetTime);
 
         inputPasswordList.Clear();

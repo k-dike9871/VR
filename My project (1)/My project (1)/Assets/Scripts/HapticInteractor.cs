@@ -26,6 +26,7 @@ public class Haptic
 }
 public class HapticInteractor : MonoBehaviour
 {
+    //Interactor haptic events
     public Haptic hapticOnActivated;
     public Haptic hapticHoverEntered;
     public Haptic hapticHoverExited;
@@ -35,6 +36,7 @@ public class HapticInteractor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Can trigger haptics based on different interaction types with objects
         XRBaseInteractable interactable = GetComponent<XRBaseInteractable>();
         interactable.activated.AddListener(hapticOnActivated.TriggerHaptic);
 

@@ -14,12 +14,14 @@ public class SocketPuzzleManager : MonoBehaviour
 
     public void CompletedPuzzleTask()
     {
+        //Checks if puzzle has been completed
         completedTasks++;
         CheckForPuzzleCompletion();
     }
 
     private void CheckForPuzzleCompletion()
     {
+        //Trigger event when puzzle is completed
         if(completedTasks >= tasksToComplete)
         {
             onPuzzleCompletion.Invoke();
