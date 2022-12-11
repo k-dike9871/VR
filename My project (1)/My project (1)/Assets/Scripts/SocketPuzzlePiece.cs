@@ -6,9 +6,11 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class SocketPuzzlePiece : MonoBehaviour
 {
+    #region Variable Declarations
     [SerializeField] private SocketPuzzleManager linkedPuzzleManager;
     [SerializeField] private Transform CorrectPuzzlePiece;
     private XRSocketInteractor socket;
+    #endregion
 
     private void Awake() => socket = GetComponent<XRSocketInteractor>();
 

@@ -6,9 +6,11 @@ using UnityEngine.XR.Interaction.Toolkit;
 [System.Serializable]
 public class Haptic
 {
+    #region Variable Declarations
     [Range(0, 1)]
     public float intensity;
     public float duration;
+    #endregion
 
     public void TriggerHaptic(BaseInteractionEventArgs eventArgs)
     {

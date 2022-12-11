@@ -7,6 +7,7 @@ using System;
 
 public class KeyPadController : MonoBehaviour
 {
+    #region Variable Declarations
     public List<int> correctPassword = new List<int>();
     private List<int> inputPasswordList = new List<int>();
     [SerializeField] private TMP_InputField codeDisplay;
@@ -20,6 +21,7 @@ public class KeyPadController : MonoBehaviour
     public bool allowMultipleActivations = false;
     private bool hasUsedCorrectCode = false;
     public bool HasUsedCorrectCode { get { return hasUsedCorrectCode; } }
+    #endregion
 
     public void UserNumberEntry(int selectedNum)
     {

@@ -5,10 +5,12 @@ using UnityEngine.InputSystem;
 
 public class AnimateHandOnInput : MonoBehaviour
 {
+    #region Variable Declarations
     public InputActionProperty pinchAnimationAction;
     public InputActionProperty gripAnimationAction;
 
     public Animator handAnimator;
+    #endregion
 
 
     // Update is called once per frame

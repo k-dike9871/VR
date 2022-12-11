@@ -8,6 +8,7 @@ using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
+    #region Variable Declarations
     public GameObject GameOver;
     public Slider timerSlider;
     public TextMeshProUGUI timerText;
@@ -16,6 +17,8 @@ public class Timer : MonoBehaviour
     public Event TimeOver;
 
     private bool stopTimer;
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {

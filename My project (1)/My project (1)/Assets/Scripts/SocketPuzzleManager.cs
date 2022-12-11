@@ -6,8 +6,10 @@ using UnityEngine.Events;
 
 public class SocketPuzzleManager : MonoBehaviour
 {
+    #region Variable Declarations
     [SerializeField] private int tasksToComplete;
    [SerializeField] private int completedTasks = 0;
+    #endregion
 
     [Header("Completion Events")]
     public UnityEvent onPuzzleCompletion;

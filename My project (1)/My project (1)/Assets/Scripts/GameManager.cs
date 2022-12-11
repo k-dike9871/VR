@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    #region Variable Declarations
     public GameObject gameOverUI;
     bool gameHasEnded = false;
+    #endregion
 
     public void endgame()
     {

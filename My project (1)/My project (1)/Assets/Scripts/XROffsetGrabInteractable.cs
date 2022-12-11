@@ -6,8 +6,10 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class XROffsetGrabInteractable : XRGrabInteractable
     
 {
+    #region Variable Declarations
     private Vector3 initialLocalPos;
     private Quaternion initialLocalRot;
+    #endregion
     // Start is called before the first frame update
     void Start()
     {
